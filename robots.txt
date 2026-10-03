@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# غيّر النطاق إلى نطاقك الحقيقي قبل الرفع
+Sitemap: https://masarik.example/sitemap.xml
