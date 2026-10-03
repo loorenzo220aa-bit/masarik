@@ -9,7 +9,7 @@ const CONFIG = {
   whatsapp: '966562667085',
 
   brand: 'مسارك',
-  email: 'hello@masarik.example',
+  email: 'alitaher2220@gmail.com',
 
   /* أرقام الصفحة الثانوية (غيّرها بعد رفع الموقع على نطاق حقيقي) */
   siteUrl: 'https://loorenzo220aa-bit.github.io/masarik',
