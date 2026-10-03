@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # غيّر النطاق إلى نطاقك الحقيقي قبل الرفع
-Sitemap: https://masarik.example/sitemap.xml
+Sitemap: https://loorenzo220aa-bit.github.io/masarik/sitemap.xml

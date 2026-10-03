@@ -26,7 +26,8 @@ node serve.mjs        # ثم افتح http://localhost:4000
 | # | ماذا | أين | ملاحظة |
 |---|------|-----|--------|
 | 1 | **رقم واتساب** | `js/app.js` → `CONFIG.whatsapp` | صيغة دولية بدون `+` وبدون صفر يسار: `0501234567` ← `9665001234567` |
-| 2 | **رابط الموقع** | `index.html` (canonical, og, twitter, JSON-LD) + `robots.txt` + `sitemap.xml` | استبدل `masarik.example` بنطاقك الحقيقي |
+| 2 | **رابط الموقع** | `index.html` (canonical, og, twitter, JSON-LD) + `robots.txt` + `sitemap.xml` | منشور حالياً على `https://loorenzo220aa-bit.github.io/masarik/` — إن اشتريت نطاقاً خاصاً استبدل الرابط في الأماكن الثلاثة |
+| 2ب | **البريد الإلكتروني** | `js/app.js` → `CONFIG.email` + `footer` في `index.html` | `hello@masarik.example` بريد وهمي — استبدله ببريدك |
 | 3 | **البريد والوقت والموقع** | `js/app.js` → `CONFIG.email` + قسم `footer` في `index.html` | بياناتك الحقيقية |
 | 4 | **الأسعار والباقات** | `js/app.js` → `CONFIG.packages` و `CONFIG.addons` | تُحدَّث تلقائياً في البطاقات والقائمة المنسدلة |
 | 5 | **التقييمات** | `js/app.js` → `CONFIG.reviews` ثم `showReviews: true` | التقييمات الحالية **ناصبة** — لا تفعّلها إلا بوضع تقييمات حقيقية من عملائك |
@@ -132,7 +133,7 @@ git push -u origin main
 ## ✅ قائمة تحقق قبل الإعلان
 
 - [ ] رقم واتساب حقيقي ومُختبَر (أرسل رسالة لنفسك من `wa.me` في إعدادات `CONFIG`)
-- [ ] `masarik.example` مستبدل بنطاقك في: `index.html` (٤ مواضع) + `robots.txt` + `sitemap.xml`
+- [ ] `https://loorenzo220aa-bit.github.io/masarik/` (أو نطاقك إن اشتريته) مكتوب في: `index.html` (٦ مواضع) + `robots.txt` + `sitemap.xml`
 - [ ] `CONFIG.email` مُحدَّث
 - [ ] الأسعار صحيحة
 - [ ] التقييمات: إما حقيقية ومُفعَّلة، أو مُخفية كما هي

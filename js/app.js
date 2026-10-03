@@ -12,7 +12,7 @@ const CONFIG = {
   email: 'hello@masarik.example',
 
   /* أرقام الصفحة الثانوية (غيّرها بعد رفع الموقع على نطاق حقيقي) */
-  siteUrl: 'https://masarik.example',
+  siteUrl: 'https://loorenzo220aa-bit.github.io/masarik',
 
   /* التقييمات: اتركها false حتى تحصل على تقييمات حقيقية من عملائك،
      ثم ضعها true بعد كتابة التعليقات الحقيقية في مصفوفة REVIEWS. */
